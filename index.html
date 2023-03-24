@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #main{
+            display:flex
+            
+            
+        }
+        #div1{
+            /*height:200px;*/
+            width:350px;
+            background-color: rgb(174, 20, 20);
+        }
+        #div2{
+           text-align:start;
+        }
+        #input1{
+            display: block;
+            height:200px;
+            width:250px;
+            font-size: 30px;
+            /* padding-bottom: px; */
+            border-top-style: hidden;
+            border-right-style: hidden;
+            border-left-style: hidden;
+            border-bottom-style: hidden;
+            /*padding-top: 0px;*/
+        }
+        #input1:focus{
+            outline:none;
+        }
+        ::placeholder{
+            position: absolute;
+            top: 0px;
+            color:blue;
+        } 
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="div1">
+
+        <h2>TASK LIST</h2>
+        <p>add tasks your list by typing to the right and pressing enter.Then you may view your pending task below.</p>
+        </div>
+        <div id="div2">
+        <input id="input1" type="text" placeholder="I need to.."/>
+        </div>
+    </div>
+</body>
+<script src="krish.js">
+
+</script>
+</html>
